@@ -22,3 +22,37 @@ _INPUT = "2\n3 9\n17 24";
 */
 
 //----- Start your code here -------
+_INPUT = //**Supposed to work with both excercises;
+
+
+int j=0 , k=0, l=2, m=0, n=1;
+
+var repl = _INPUT.replace(/ /g,'\n');
+
+A=repl[n];
+B=repl[l];
+
+for (m = repl[repl.length];B<=m;B= repl[l=l+2])
+{
+	
+	for(int i = A; i<=B;i++)
+	{
+	var serie = serie.push(i);
+	}
+	for(int i =1;i<serie[serie.length];i++)
+	{
+		j=i*i;
+		for(int p=0;p<serie[serie.length];p++)
+		{
+			if (j==serie[p])
+			{	
+			k++
+			}
+			else
+			{
+			}
+		}
+	}
+A=repl[n+2];
+console.log (k);
+}
